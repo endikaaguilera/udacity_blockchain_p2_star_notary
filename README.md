@@ -14,8 +14,8 @@ This Starter Code has already implemented the functionalities you implemented in
 ### Tokens data
   - ERC721 Token Symbol: SNT
   - Token name: StarNotaryToken
-  - [Token address:](https://rinkeby.etherscan.io/token/0xbca47a91704a20ea7b9016f44f3805aea7c7d57e)
-  - [Contract addess:](https://rinkeby.etherscan.io/address/0xbca47a91704a20ea7b9016f44f3805aea7c7d57e)
+  - [Token address](https://rinkeby.etherscan.io/token/0xbca47a91704a20ea7b9016f44f3805aea7c7d57e)
+  - [Contract addess](https://rinkeby.etherscan.io/address/0xbca47a91704a20ea7b9016f44f3805aea7c7d57e)
 
 ### Task 1
 Your Project is to Modify the StarNotary version 2 contract code to achieve the following:
