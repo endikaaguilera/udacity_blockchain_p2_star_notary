@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StarNotary DAPP</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Star Notary Token (SNT) DAPP</h1>
+    <br>
+    <span id="connectedAccount"></span>
+    <br>
+    <br>
+    <hr>
+
+    <br>
+      <h1>Create a SNT</h1>
+      <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
+      <br><label for="starId">Star ID:</label><input type="text" id="starId"></input>
+      <br><br><button id="createStar" onclick="App.createStar()">Create Star</button>
+      <br>
+      <br>
+      <span id="createStarStatus"></span>
+      <br>
+      <hr>
+      <br>
+      <h1>Look up a SNT</h1>
+      <br><label for="name">Star ID:</label><input type="text" id="lookid"></input>
+      <br><br><button onclick="App.lookUp()">Look Up a Star</button>
+      <br>
+      <br>
+      <span id="lookUpStarStatus"></span>
+      <br>
+      <hr>
+      <br>
+      <h1>Tranfer Star</h1>
+      <br><label for="name">Star ID:</label><input type="text" id="transferStarId"></input>
+      <br><label for="name">To address:</label><input type="text" id="toAddress" style="width: 50%;"></input>
+      <br><br><button onclick="App.transferStar()">Tranfer SNT</button>
+      <br>
+      <br>
+      <span id="trasferStarStatus"></span>
+      <br>
+      <hr>
+      <br>
+      <h1>Exchange Stars</h1>
+      <br><label for="name">Exchange Star ID from address 1:</label><input type="text" id="exchangeStarId1"></input>
+      <br><label for="name">Exchange Star ID from address 2:</label><input type="text" id="exchangeStarId2"></input>
+      <br><br><button onclick="App.exchangeStars()">Exchange SNTs</button>
+      <br>
+      <br>
+      <span id="exchangeStarStatus"></span>
+      <br>
+      <hr>
+      <br> 
+      <h1>Account SNTs</h1>
+      <br><br><button onclick="App.getStarsOf()">Get account SNTs</button>      
+      <br>
+      <br>
+      <span id="accountStarsStatus"></span>
+      <br>
+      <hr>
+      <br>
+    <script src="index.js"></script>
+  </body>
+</html>
