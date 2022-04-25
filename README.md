@@ -4,12 +4,13 @@
 ### ToDo
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
-### Truffle versión
+### Dependencies versions
   - Truffle v5.5.11 (core: 5.5.11)
   - Ganache v^7.0.4
   - Solidity - 0.8.4 (solc-js)
   - Node v17.6.0
   - Web3.js v1.5.3
+  - OpenZeppelin v^4.4.2
 
 ### Tokens data
   - ERC721 Token Symbol: SNT
